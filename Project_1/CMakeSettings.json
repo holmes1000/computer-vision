@@ -1,0 +1,56 @@
+﻿{
+    "configurations": [
+        {
+            "name": "x64-Debug",
+            "generator": "Ninja",
+            "configurationType": "Debug",
+            "inheritEnvironments": [ "msvc_x64_x64" ],
+            "buildRoot": "${projectDir}\\out\\build\\${name}",
+            "installRoot": "${projectDir}\\out\\install\\${name}",
+            "cmakeCommandArgs": "",
+            "buildCommandArgs": "",
+            "ctestCommandArgs": "",
+            "variables": [
+                {
+                    "name": "CMAKE_PREFIX_PATH",
+                    "value": "C:/Qt/6.5.3/msvc2019_64",
+                    "type": "PATH"
+                },
+                {
+                    "name": "OpenCV_DIR",
+                    "value": "C:/opencv/build",
+                    "type": "PATH"
+                },
+                {
+                    "name": "ONNX_DIR",
+                    "value": "C:/onnxruntime-win-x64-1.20.1",
+                    "type": "PATH"
+                }
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/opencv/include",
+                "C:/onnxruntime-win-x64-1.20.1/include",
+                "C:/Qt/6.5.3/msvc2019_64/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:/opencv/include",
+                    "C:/onnxruntime-win-x64-1.20.1/include",
+                    "C:/Qt/6.5.3/msvc2019_64/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
