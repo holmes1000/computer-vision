@@ -1,3 +1,0 @@
-C:/Users/samar/Desktop/Pattern Recogn & Comp Vision/Pattern Recogn Repo/Project_1/build/CMakeFiles/Project_1.dir
-C:/Users/samar/Desktop/Pattern Recogn & Comp Vision/Pattern Recogn Repo/Project_1/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/samar/Desktop/Pattern Recogn & Comp Vision/Pattern Recogn Repo/Project_1/build/CMakeFiles/ZERO_CHECK.dir
